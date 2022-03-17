@@ -8,16 +8,16 @@ namespace Fibonacci
         {
             Console.WriteLine("gibe num to fibo");
             string aux = Console.ReadLine();
-            int n = ToInt34(aux);
+            int n = ToInt32(aux);
             Fibonacci(n);
         }
         private static int Fibonacci (int n)
         {
-            ulong fibo;
+            int fibo;
             if (n == 1 || n == 2)
                 fibo = 1;
             else
-                fibo = fibo(n - 2) + fibo (n - 1);
+                fibo = Fibonacci(n - 2) + Fibonacci(n - 1);
             return fibo;
         }
     }
