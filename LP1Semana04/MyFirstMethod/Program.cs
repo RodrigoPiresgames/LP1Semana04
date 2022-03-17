@@ -6,16 +6,21 @@ namespace NomeDoProjeto
     {
         static void Main(string[] args)
         {
-            CountTo10();
-            CountTo10();
+            string aux = Console.ReadLine();
+            int n = Convert.ToInt32(aux);
+            CountToN(n);
+            aux = Console.ReadLine();
+            n = Convert.ToInt32(aux);
+            CountToN(n);
         }
-        private static void CountTo10 ()
+
+        private static void CountToN(int n)
         {
-            for(int i = 1; i <= 10; i++)
+            for(int i = 1; i <= n; i++)
             {
-                Console.WriteLine(i);
+                Console.WriteLine(n);
             }
-        }       
+        }
 
     }
 }
