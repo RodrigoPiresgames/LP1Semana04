@@ -8,8 +8,8 @@ namespace Fibonacci
         {
             Console.WriteLine("gibe num to fibo");
             string aux = Console.ReadLine();
-            int n = ToInt34(aux)
-            Fibonacci(n)
+            int n = ToInt34(aux);
+            Fibonacci(n);
         }
         private static int Fibonacci (int n)
         {
