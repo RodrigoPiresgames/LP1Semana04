@@ -9,7 +9,7 @@ namespace Fibonacci
             Console.WriteLine("gibe num to fibo");
             string aux = Console.ReadLine();
             int n =Convert.ToInt32(aux);
-            Console.WriteLine($"{Fibonacci(n)}";
+            Console.WriteLine($"{Fibonacci(n)}");
         }
         private static int Fibonacci (int n)
         {
