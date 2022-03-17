@@ -16,7 +16,7 @@ namespace NomeDoProjeto
             for(int i = 0; i < 2; i++)
             {
                 string aux = Console.ReadLine();
-                int n = Convert.ToInt32(aux);
+                int n1 = Convert.ToInt32(aux);
                 aux = Console.ReadLine();
                 int n2 = Convert.ToInt32(aux);
                 CountToN(n1, n2);
